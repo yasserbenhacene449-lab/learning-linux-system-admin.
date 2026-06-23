@@ -60,3 +60,7 @@ Welcome to my daily learning log. This repository is dedicated to documenting my
 ---
 
 *Next Step: Moving into Linux Permissions, Group Management, and Ownership (The Core of OS Security).*
+### 🧠 Deep-Dive Conceptual Insights (June 23, 2026)
+
+- **Understanding Directory Filesystem Structure**: Deepened the knowledge regarding system roots; verified that `ls -l /etc` allows for querying internal configs from anywhere without context-switching via `cd`.
+- **System Binary Pathway Diagnostics**: Explored the use of the `which` command (e.g., `which nano`) to map execution paths to `/usr/bin/nano` and check system packages configuration before running updates.
