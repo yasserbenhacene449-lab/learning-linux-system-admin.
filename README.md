@@ -40,6 +40,12 @@ Welcome to my daily learning log. This repository is dedicated to documenting my
 *   **Commands Mastered:**
     *   `cp` - Copying files and creating secure backups (`cp secure.txt secure.txt.bak`).
     *   `mv` - Moving files across directories or renaming them to fix configuration errors.
+<img width="1920" height="1080" alt="Screenshot 2026-07-07 203607" src="https://github.com/user-attachments/assets/4f0560c4-a3a9-4d4b-ad2f-9cd414435f74" />
+<img width="1920" height="1080" alt="Screenshot 2026-07-07 204306" src="https://github.com/user-attachments/assets/d196ac59-4e9a-452f-8fd1-55946782b649" />
+
+
+
+
 
 ---
 
