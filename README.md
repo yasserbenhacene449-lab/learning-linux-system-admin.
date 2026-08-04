@@ -96,6 +96,6 @@ To view the contents of the restricted `/root` directory as a normal user using 
 
 ```bash
 sudo ls /root
-<img width="1920" height="1110" alt="Screenshot 2026-08-02 193643" src="https://github.com/user-attachments/assets/bcbba018-035b-43f2-bf36-e36afa01c2e7" />
-<img width="1920" height="1080" alt="Screenshot 2026-08-02 193348" src="https://github.com/user-attachments/assets/50b285fa-8894-4e6f-8d78-01a088209f6c" /><img width="1920" height="1080" alt="Screenshot 2026-08-02 193717" src="https://github.com/user-attachments/assets/8c8da7bf-58e7-41ab-8591-ce4f668b53b1" />
+<img width="1920" height="1080" alt="Screenshot 2026-08-02 193348" src="https://github.com/user-attachments/assets/bd268384-4cec-441b-9eb6-4d8e6877ab13" />
+<img width="1224" height="877" alt="Screenshot 2026-08-04 174622" src="https://github.com/user-attachments/assets/94af3943-4ae2-4489-a505-9eba1c42158d" />
 
