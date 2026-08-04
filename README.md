@@ -85,6 +85,11 @@ This guide explains how administrator (root) privileges work in Linux, how to ex
 * **Using `sudo` vs `su -`:**
   * `sudo <command>`: Runs a single command with administrative privileges without leaving the current user shell.
   * `su -`: Opens an interactive login shell as another user (or `root` if no argument is provided). **Always use the trailing dash (`su -`)** to ensure the target user's full environment variables are loaded.
+ 
+  * 
+<img width="1920" height="804" alt="Screenshot 2026-08-04 173755" src="https://github.com/user-attachments/assets/72f64c70-e257-4509-af85-286cf7af6ee1" />
+<img width="1224" height="877" alt="Screenshot 2026-08-04 174622" src="https://github.com/user-attachments/assets/ebbeb873-3531-4367-87dc-7e4548cf7fa1" />
+
 
 ---
 
@@ -96,6 +101,4 @@ To view the contents of the restricted `/root` directory as a normal user using 
 
 ```bash
 sudo ls /root
-<img width="1920" height="1080" alt="Screenshot 2026-08-02 193348" src="https://github.com/user-attachments/assets/bd268384-4cec-441b-9eb6-4d8e6877ab13" />
-<img width="1224" height="877" alt="Screenshot 2026-08-04 174622" src="https://github.com/user-attachments/assets/94af3943-4ae2-4489-a505-9eba1c42158d" />
 
