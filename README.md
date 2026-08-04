@@ -70,3 +70,32 @@ Welcome to my daily learning log. This repository is dedicated to documenting my
 
 - **Understanding Directory Filesystem Structure**: Deepened the knowledge regarding system roots; verified that `ls -l /etc` allows for querying internal configs from anywhere without context-switching via `cd`.
 - **System Binary Pathway Diagnostics**: Explored the use of the `which` command (e.g., `which nano`) to map execution paths to `/usr/bin/nano` and check system packages configuration before running updates.
+# Managing Administrator Privileges in Linux (`sudo` & `su`)
+
+This guide explains how administrator (root) privileges work in Linux, how to execute administrative commands safely, and demonstrates practical usage across different distributions (Ubuntu & CentOS).
+
+---
+
+## Key Concepts
+
+* **Root User Restrictions:** The `root` user has unrestricted access to the entire operating system. To prevent accidental system damage or security risks, direct login as `root` should be avoided.
+* **Privileged Groups:**
+  * **Ubuntu/Debian:** Users belonging to the `sudo` group can execute commands with superuser privileges.
+  * **Red Hat/CentOS:** Users belonging to the `wheel` group are granted superuser execution rights.
+* **Using `sudo` vs `su -`:**
+  * `sudo <command>`: Runs a single command with administrative privileges without leaving the current user shell.
+  * `su -`: Opens an interactive login shell as another user (or `root` if no argument is provided). **Always use the trailing dash (`su -`)** to ensure the target user's full environment variables are loaded.
+
+---
+
+## Practical Examples & Commands
+
+### 1. Executing Administrative Commands with `sudo`
+
+To view the contents of the restricted `/root` directory as a normal user using elevated privileges:
+
+```bash
+sudo ls /root
+<img width="1920" height="1110" alt="Screenshot 2026-08-02 193643" src="https://github.com/user-attachments/assets/bcbba018-035b-43f2-bf36-e36afa01c2e7" />
+<img width="1920" height="1080" alt="Screenshot 2026-08-02 193348" src="https://github.com/user-attachments/assets/50b285fa-8894-4e6f-8d78-01a088209f6c" /><img width="1920" height="1080" alt="Screenshot 2026-08-02 193717" src="https://github.com/user-attachments/assets/8c8da7bf-58e7-41ab-8591-ce4f668b53b1" />
+
