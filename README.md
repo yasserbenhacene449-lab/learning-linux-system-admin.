@@ -1,4 +1,4 @@
-# learning-linux-system-admin.
+# linux-sysadmin-lab.
 Daily hands-on lab documentation for Linux System Administration and Cloud Security fundamentals, tailored for corporate IT environments.
 # 🐧 Linux System Administration & Cloud Security Journey
 
